@@ -6,7 +6,7 @@ $(document).ready(function(){
     groceryList.push(groceryInput);
     console.log("Grocery List: ", groceryInput)
 
-    groceryList.forEach(function(grocery){
+    groceryInput.forEach(function(grocery){
       $("#listItems").append("<li>" + grocery + "</li>");
     });
 
